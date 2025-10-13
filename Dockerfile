@@ -8,5 +8,5 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["bash", "-c", "bash || tail -f /dev/null"]
+CMD ["tail", "-f", "/dev/null"]
 
