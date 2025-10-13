@@ -8,5 +8,5 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["bash", "-c", "exec bash"]
+CMD ["/bin/bash", "-c", "exec bash < /dev/tty"]
 
