@@ -4,5 +4,5 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["echo", "Hello Gdal"]
+CMD ["/bin/bash"]
 
