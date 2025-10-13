@@ -1,8 +1,12 @@
 FROM ghcr.io/osgeo/gdal:ubuntu-small-latest
 
+SHELL ["/bin/bash", "-c"]
+
+RUN apt-get update && apt-get install curl -y
+
 WORKDIR /app
 
 COPY . .
 
-CMD ["/bin/bash"]
+CMD ["/bin/bash", "-c", "while true; do sleep 3600; done"]
 
