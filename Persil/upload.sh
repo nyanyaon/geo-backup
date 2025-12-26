@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Database connection details
-PG_CONN="dbname=postgres host=mandalikaproject-geotile-1rxcst-db-1 user=postgres port=54321 password=kucing123"
+PG_CONN="dbname=postgres host=mandalika-geotiles-dbcmti-db-1 user=postgres port=54321 password=kucing123"
 
 # Table name to append into
 TABLE_NAME="bidang_tanah"
